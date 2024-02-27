@@ -47,7 +47,7 @@ else:
         else:
             print("NO")
             print("Creando...")
-            os.system("mkdir -p " + directorio)
+            os.mkdir(directorio)
     elif opcion == 4:
         print("Saliendo del script...")
         exit()
